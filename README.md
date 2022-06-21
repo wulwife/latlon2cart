@@ -3,12 +3,12 @@ With this class you can convert geographical coordinates (Latitude, Longitude, E
 to generic cartesian coordinates East, North, Up (in meters). In ordert to use it you first need to define
 a reference point (Latref,Lonref,Eleref). All the calculations are performed using WGS84 ellipsoid.
 
-INSTALLATION:
+## INSTALLATION:
 from the terminal type:
 
 sudo python3 setup.py install
 
-IMPORTANT: 
+## IMPORTANT: 
 For Geographical Coordinates
 Latitude is in degrees e.g. 36.117
 Longitude is in degrees e.g. -117.854
@@ -16,8 +16,10 @@ Elevation is kilometers
 For E,N,U Cartesian Coordinates
 East, North and Up are in meters
 
-USAGE:
-You generate an object coordinates as: 
+## USAGE:
+You generate an object coordinates as:
+
+import latlon2cart
     
 region=latlon2cart.Coordinates(latref,lonref,eleref)
     
@@ -29,7 +31,7 @@ To go back to the geographical coordinate system from the cartesian fram (E_i, N
 
 Lat_I,Lon_I, Ele_I=region.cart2geo(E_i,N_i,U_i)
 
-AUTHOR: 
+## AUTHOR: 
 Francesco Grigoli, 
 Department of Earth Sciences, 
 University of Pisa,
