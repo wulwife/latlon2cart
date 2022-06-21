@@ -21,7 +21,7 @@ You generate an object coordinates as:
 
 import latlon2cart
     
-region=latlon2cart.Coordinates(latref,lonref,eleref)
+region=latlon2cart.Coordinates(latref,lonref,eleref) #latref, lonref and eleref is the reference point in geographic coordinates
     
 Then any other point (Lat_i, Lon_i, Ele_i) can be converted in the cartesian E,N,U frame as:
 
