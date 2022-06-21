@@ -1,4 +1,4 @@
-### latlon2cart
+# latlon2cart
 With this class you can convert geographical coordinates (Latitude, Longitude, Elevation)
 to generic cartesian coordinates East, North, Up (in meters). In ordert to use it you first need to define
 a reference point (Latref,Lonref,Eleref). All the calculations are performed using WGS84 ellipsoid.
