@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
+from setuptools import setup
 
-from distutils.core import setup
 setup(name="latlon2cart",
       version="1.0",
       description="Conversion between Geographic and General Cartesian Coordinates",
